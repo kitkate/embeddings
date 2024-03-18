@@ -1,0 +1,72 @@
+{
+  "AppID3": {
+    "ai_dict": {
+      "name": "The Third App",
+      "description": "Customer Relationship Management 2.",
+      "tables": [
+        {
+          "name": "Companies",
+          "recordNoun": "Company",
+          "fields": [
+            {
+              "name": "Company Name",
+              "type": "TX"
+            },
+            {
+              "name": "Address",
+              "type": "AD"
+            },
+            {
+              "name": "Web",
+              "type": "LK"
+            },
+            {
+              "name": "Phone",
+              "type": "PH"
+            },
+            {
+              "name": "Industry",
+              "type": "TC",
+              "choices": [
+                "Machine Tools & Accessories",
+                "Information & Delivery Services",
+                "Business Services",
+                "Telecom Services - Domestic",
+                "Auto Parts Stores",
+                "Drug Related Products",
+                "Specialized Health Services",
+                "Air Services, Other",
+                "Synthetics",
+                "Trucking",
+                "Specialty Retail, Other",
+                "Industrial Equipment & Components",
+                "Insurance Brokers",
+                "Oil & Gas Drilling & Exploration",
+                "Lumber, Wood Production",
+                "Electric Utilities",
+                "Gas Utilities",
+                "Asset Management",
+                "Beverages - Soft Drinks",
+                "Air Delivery & Freight Services",
+                "Appliances",
+                "Biotechnology",
+                "Toys & Games",
+                "Electronic Equipment",
+                "Basic Materials Wholesale",
+                "Medical Instruments & Supplies",
+                "Beverages - Brewers",
+                "Farm & Construction Machinery",
+                "Copper",
+                "Shipping",
+                "Restaurants",
+                "Security & Protection Services",
+                "Business Equipment"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "search_value": "Companies (Company Name, Address, Web, Phone, Industry)"
+  }
+}
