@@ -6,6 +6,7 @@ from transformers import AutoModel, AutoTokenizer
 
 
 class EmbeddingsCreator:
+    """Creates, saves and compares embeddings for apps"""
     MODEL = 'Salesforce/codet5p-110m-embedding'
     DEVICE = 'cpu'  # for CPU usage or "cuda" for GPU usage
     INPUT_DATASET_FILE = 'dataset.json'
